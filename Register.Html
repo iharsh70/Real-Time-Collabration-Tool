@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - CollabTool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <h1>CollabTool</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="form-container" style="max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
+            <h2 style="text-align: center;">Register</h2>
+            <form id="registerForm">
+                <div style="margin-bottom: 15px;">
+                    <label for="fullName" style="display: block; margin-bottom: 5px;">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Full Name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="email" style="display: block; margin-bottom: 5px;">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="password" style="display: block; margin-bottom: 5px;">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="confirmPassword" style="display: block; margin-bottom: 5px;">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <button type="submit" style="width: 100%; padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Register</button>
+            </form>
+            <p style="text-align: center; margin-top: 15px;">Already have an account? <a href="login.html" style="color: #007BFF;">Login</a></p>
+        </section>
+    </main>
+    <footer style="text-align: center; padding: 20px; background-color: #f8f9fa;">
+        <p>&copy; 2024 Real-Time Collaboration Tool. All rights reserved.</p>
+    </footer>
+</body>
+</html>
